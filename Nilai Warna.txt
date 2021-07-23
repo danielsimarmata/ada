@@ -1,0 +1,34 @@
+			Menetapkan Nilai Warna
+
+1. Numeric Value
+	    /* Warna hijau menggunakan format RGB */
+    color: rgb(78,231,23);
+     
+    /* Warna hijau Menggunakan format HEX */
+    color: #4ee717;
+     
+    /* Warna hijau menggunakan format HSL (hanya di CSS3)*/
+    color: hsl(104, 82%, 50%);
+
+2. Predefined Color Name
+	color: black;
+    	color: white;
+    	color: blue;
+
+3. Opacity
+	CSS3 mengenalkan properti opacity yang dapat menspesifikasikan nilai transparan pada elemen HTML. 
+Nilai dari properti opacity merupakan angka desimal antara 0.0 hingga 1.0, jika kita menetapkan nilainya 0.5 itu 
+berarti 50% transparan.
+Contoh : 
+    div#opacity {
+       background-color: red;
+       opacity: 0.5;
+    }
+
+Selain pada elemen, menetapkan opacity juga dapat kita lakukan pada warna. Untuk melakukannya, 
+gunakan format rgba dan hsla, dimana format ini merupakan format rgb ditambahkan nilai alpha.
+Contoh : 
+    p {
+       color: rgba(78,231,23, 0.5);
+       color: hsla(104, 82%, 50%, 0.5);
+    }

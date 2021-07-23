@@ -1,0 +1,11 @@
+			GENERIK ELEMEN
+
+1. DIV
+	elemen <div>, elemen ini merupakan sebuah wadah (container) yang bersifat umum untuk menampung beberapa konten. 
+Elemen ini tidak akan memberikan efek apapun pada konten atau layout sebelum menerapkan sebuah style menggunakan CSS.
+elemen <div> tidak merepresentasikan apapun. Elemen ini lebih sering digunakan untuk mengelompokkan sebuah
+konten sehingga dapat memudahkan styling dengan menggunakan atribut class atau id.
+2. SPAN
+	<span> merupakan sebuah <div> yang digunakan dalam sebuah baris teks yang dapat diwadahi 
+oleh paragraf, list, heading atau lainnya.
+	

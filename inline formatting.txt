@@ -1,0 +1,11 @@
+inline formating :
+1. Anchor -> <a href >  </a> >> Digunakan untuk membuat sebuah hyperlink
+2. emphasized text -> <em> </em> >> Digunakan untuk menunjukkan kata yang perlu di tekankan
+3. important text -> <strong> </strong> >> Digunakan untuk menunjukkan kata yang sangat penting
+4. short quote -> <q> </q> >> Digunakan untuk menandai sebuah kutipan didalam text ("  ")
+5. Citation -> <cite> </cite> >> Elemen yang digunakan untuk sebuah rujukan pada sebuah dokumen
+6. Defining terms-> Digunakan ketika mendefinisikan sebuah istilah. Elemen ini harus terletak pada elemen lain,(cth : pada elemen <p> atau <section>)
+7. Subscript <sub> dan Superscript <sup> >> Elemen yang dapat membuat teks ditampilkan nampak kecil dengan posisi dibawah (sub) dan diatas (sup), biasanya digunakan untuk rumus kimia dan matematika
+8. Highlighted text -> <mark>  </mark>  >> Elemen yang membuat teks ditampilkan dengna backgroun kuning atau hitam.
+9. Line break <br> >> Digunakan untuk membuat sebuah baris baru pada teks
+

@@ -1,0 +1,43 @@
+		COMBINATION SELECTOR
+
+1. Adjacent Sibling Selector (+)
+	Adjacent Sibling Selector menggabungkan dua buah basic selector dengan menggunakan tanda + di antara keduanya.
+contoh :   
+  img + p {
+       color: green;
+	  }
+Adjacent Sibling Selector terdiri dari dua buah target elemen, 
+namun hanya elemen kedua yang menerapkan rule selama elemen tersebut dituliskan langsung setelah elemen pertama 
+pada berkas HTML.
+
+2. General Sibling Selector (~)
+	Mirip seperti Adjacent Sibling Selector namun rules akan diterapkan pada seluruh elemen kedua yang berada 
+setelah elemen pertama. Dengan catatan, induknya sama, walaupun posisi dari elemen kedua tidak berada tepat setelahnya.
+contoh : 
+    img ~ p {
+       color: green;
+    }
+Rule di atas akan diterapkan pada elemen paragraf yang berada setelah elemen img selama masih di dalam induk yang sama.
+
+3. Child Selector (>)
+	Child Selector menggabungkan dua buah basic selector dengan menggunakan tanda greater than (>) di antara basic selector-nya.
+Contoh : 
+    div > p {
+       background-color: yellow;
+    }
+Pada contoh di atas rule akan diterapkan pada seluruh elemen paragraf yang berada di dalam elemen div secara langsung. 
+Dalam arti lain, elemen paragraf merupakan child dari elemen div bukan sebuah hanya turunannya. 
+
+4. Descendant Selector (space)
+	Descendant Selector mirip seperti child selector namun hierarkinya lebih luas, 
+karena rule akan diterapkan pada seluruh elemen yang menjadi turunannya walaupun secara tidak langsung. 
+Basic selector pertama yang dituliskan pada selector ini menjadi induknya dan basic selector yang kedua merupakan akan 
+menerapkan rule.
+Contoh : 
+	<style>
+       /* Rule akan diterapkan pada elemen paragraf yang merupakan turunan dari elemen div */
+       div p {
+           background-color: yellow;
+       }
+  	</style>
+

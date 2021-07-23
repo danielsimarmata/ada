@@ -1,0 +1,29 @@
+	MENGORGANISASIKAN HALAMAN KONTEN
+
+1. HEADER dan FOOTER
+	Header digunakan sebagai perantara atau pembuka konten dalam sebuah elemen <artikel> atau <section>
+Footer digunakan sebagai catatan kaki pada sebuah elemen <article> atau <section>.
+Header dan footer tidak dapat berada pada header dan footer lainnya.
+
+2. NAV
+	<nav> digunakan untuk menampung sebuah navigasi yang sifatnya penting (major) seperti navigasi utama pada sebuah website
+
+3. ARTICLES
+	Elemen <article> bertindak sebagai container untuk indepeden content pada sebuah halaman, artinya konten utuh yang tidak terkait
+dengan konten lain, bisa saja sebuah artikel blog, komentar, forum post dan konten lainnya.
+Elemen <article> dapat berada pada elemen <article> lainnya.
+
+4. ASIDE
+	Elemen <aside> memiliki dua tujuan tergantung kita menempatkannya didalam sebuah elemen <article> atau tidak.
+Ketika ditempatkan di dalam elemen <article>, pada elemen ini dapat berisikan informasi yang berhubungan dengan artikel tersebut
+tetapi bukan bagian dari konten artikelnya itu sendiri (dipisahkan dari konten utama).
+Ketika ditempatkan diluar elemen <article>, pada elemen ini berisikan informasi yang berhubungan pada keseluruhan halaman.
+Biasanya elemen <aside> terletak disamping dari sebuah elemen yang menampungnya.
+
+5. SECTION
+	Sebuah elemen yang memiliki kesamaan konten dan memiliki sebuah heading didalamnya dapat dikelompokkan dengan
+menggunakan sebuah elemen <section>. Dengan begitu elemen ini daat digunakan pada sebuah elemen <article> yang
+memiliki konten panjang dan berpotensi untuk dikelompokkan.
+Di dalam sebuah <section> sebaiknya terdapat elemen heading (h1 - h6), yang menjadi elemen pertama yang dituliskan
+pada sebuah section untuk menunjukkan judul atau tema dari bagian konten yang dikelompokkan.
+

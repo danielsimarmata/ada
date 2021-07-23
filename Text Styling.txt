@@ -1,0 +1,111 @@
+		TEXT STYLING
+
+1. Line Height
+	Properti line-height digunakan untuk mengatur jarak minimal dari garis dasar ke garis dasar dalam menampilkannya 
+teks pada halaman. Jika kita terbiasa dengan software dokumen editor seperti Microsoft Word, properti ini mirip dengan 
+fungsi line height.
+Pada penjelasan di atas disebutkan “minimal”, karena jika terdapat sebuah karakter yang tinggi atau besar dalam sebuah baris, maka tinggi dari baris pun akan menyesuaikan agar jarak tetap mengakomodirnya.
+
+Berikut merupakan contoh tiga cara berbeda dalam menerapkan tinggi baris dua kali lebih tinggi dari ukuran font:
+    p {
+       line-height: 2;
+    }
+    p {
+       line-height: 200%;
+    }
+    p {
+       line-height: 2em;
+    }
+
+2. Text Indent
+	Dalam membuat sebuah dokumen tidak jarang kita membutuhkan jarak/lekuk di awal paragraf. 
+Hal tersebut dapat dilakukan pada website dengan menerapkan properti text-indent.  Kita dapat menentukan nilai properti 
+ini melalui perhitungan panjang dalam px, em, dan in atau bisa menggunakan nilai persentase (%). Nilai persentase dihitung
+berdasarkan lebar dari induk elemen. Berikut merupakan contoh penggunaannya:
+    p#first {
+       text-indent: 2em;
+    }
+     
+    p#second {
+       text-indent: 25%;
+    }
+     
+    p#third {
+       text-indent: -35px;
+    }
+
+3. Text Alignment
+	Kita bisa mengatur text alignment pada website seperti kita melakukannya pada aplikasi Microsoft Word dengan 
+menggunakan properti text-align. Untuk standarnya, properti ini bernilai left atau biasa kita sebut rata kiri. Tetapi 
+jika kita menerapkan atribut language dengan nilai bahasa yang arah bacanya berlawanan, maka standarnya akan
+menggunakan right atau rata kanan.
+Contoh : 
+    p#first {
+    text-align: left;
+    }
+     
+    p#second {
+    text-align: right;
+    }
+     
+    p#third {
+    text-align: center;
+    }
+     
+    p#fourth {
+    text-align: justify;
+    }
+
+4. Text Decoration
+	Properti ini paling populer digunakan ketika kita ingin membuat garis bawah atau underline pada teks. Tapi tak hanya itu, ada beberapa nilai lain yang dapat kita gunakan untuk properti ini.
+Dengan menggunakan text-decoration, kita dapat menghilangkan efek underline pada link yang ditampilkan dengan memberikan nilai text-decoration: none pada elemen <a>.
+
+5. Text Transform
+	Ketika kita menerapkan properti text-transform pada elemen teks, maka kapitalisasi akan berubah ketika halaman di-render tanpa harus mengubahnya pada dokumen HTML. 
+
+6. Word and Letter Spacing
+	Properti selanjutnya yang bisa kita gunakan untuk formating teks adalah letter-spacing dan word-spacing. 
+Seperti namanya, properti ini digunakan untuk mengatur spasi atau jarak pada teks. Properti letter-spacing digunakan 
+untuk mengatur jarak antar huruf, sedangkan word-spacing digunakan untuk mengatur jarak antar kata.
+Contoh :
+    p#letter {
+       letter-spacing: 4px;
+    }
+    p#word {
+       word-spacing: 1.5em;
+    }
+
+7. Text Shadow
+	Memberikan bayangan pada teks telah menjadi hal yang umum digunakan meskipun tidak memiliki dukungan di semua browser. 
+Pada CSS untuk membuat bayangan pada teks (atau biasa disebut drop shadow) kita dapat gunakan properti text-shadow.
+Nilai dari properti ini cukup rumit karena membutuhkan tiga buat nilai dan satu buah nilai warna sehingga membutuhkan 
+empat nilai dalam satu properti untuk menentukan bayangannya.
+    Nilai pertama : menunjukkan seberapa jauh ke kiri atau kanan (horizontal) bayangan harus ditampakkan.
+    Nilai kedua : menunjukkan jarak ke atas atau ke bawah (vertical) bayangan harus ditampakkan. 
+    Nilai Ketiga (opsional) : menentukan tingkat keburaman yang harus diterapkan pada bayangan.
+
+    Nilai Keempat :  menentukan warna yang digunakan pada bayangan.
+Contoh : 
+p#one {
+   text-shadow: 1px 1px 0px #000000;
+   background-color: #eeeeee;
+   color: #666666;
+}
+ 
+p#two {
+   text-shadow: 1px 1px 3px #666666;
+   background-color: #dddddd;
+   color: #666666;
+}
+ 
+p#three {
+   text-shadow: 2px 2px 7px #111111;
+   background-color: #cccccc;
+   color: #ffffff;
+}
+ 
+p#four {
+   text-shadow: -1px -1px #666666;
+   background-color: #cccccc;
+   color: #bbbbbb;
+

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #ccc;
+}
+
+h2, h3, h4 {
+	color:#0040ff;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+nav {
+   	background-color: #5f9bd4;
+  	padding: 5px;
+   	position: sticky;
+   	top: 0;
+    }
+nav a{
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+nav a:active {
+	color: red;
+	font-weight: bold;
+	}
+
+.jumbotron {
+	font-size: 24px;
+	text-align: center;
+	padding: 60px;
+	color: black;
+	background: url('../img/Danau toba.jpg');
+	background-position: 0px;
+	}
+
+.jumbotron p {
+	font-size: 16px;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+#content {
+	float: left;
+	width: 65%;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 15px;
+	list-style-type: none;
+}
+
+aside {
+	float: right;
+	width: 35%;
+	padding-left: 5px;
+	
+}
+
+@media screen and (max-width: 1000px){
+#content, aside {
+	width: 100%;
+	padding: 0;
+	}
+}
+
+header {
+	display: inline;
+}
+
+footer {
+	background-color: #5f9bd4;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.gambar {
+	width: 100%;
+	max-height: 300%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card {
+	box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+}
+
+#profile header {
+	text-align: center;
+}
+
+#profile img {
+	width: 100%;
+}
+
+aside, h3 {
+	padding-left: 40px;
+}
+
+.container {
+	box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	width: 100%;
+	margin:10px auto;
+	border: 10px solid white;
+	overflow: auto;
+	line-height: 0;
+}
+
+.jumbo {
+	width: 100%;
+}
+
+.thumb {
+	width: 20%;
+	float: left;
+	border: 2px solid white;
+	box-sizing: border-box;
+}
+
+.thumb:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#adi {
+	text-align: center; 
+}
+#adi img{
+	width: 100%;
+}
